@@ -1,0 +1,212 @@
+#about-container {
+    height: 100%;
+  }
+  
+  #about-container-inner {
+    display: grid;
+    grid-row-gap: 1em;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  .top-nav {
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1em;
+  }
+  
+  .main-nav {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+  }
+  
+  .welcome-txt {
+    color: #fff;
+  }
+  
+  .top-nav-item {
+    list-style-type: none;
+  }
+  
+  .top-nav-item li {
+    display: inline;
+  }
+  
+  .top-nav-item li a {
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo-txt {
+    font-size: 1.75em !important;
+    font-weight: bold;
+  }
+  
+  .white {
+    background-color: white !important;
+  }
+  
+  .banner {
+    height: 340px;
+    background-image: url('../../assets/img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+    border-radius: 10px;
+    color: white;
+    padding: 3em;
+  }
+  
+  /* bio */
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  
+  html, body {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  h2 {
+    padding: 20px 0px 15px 0px;
+  }
+  
+  p {
+    margin: 10px 0px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .grow {
+    transition: all .2s ease-in-out;
+  }
+  
+  .grow:hover {
+    transform: scale(1.1);
+  }
+  
+  .main-body-container {
+    /* background-image: url('../img/bg_background.jpeg');
+    background-repeat: no-repeat; */
+    object-fit: contain;
+    background-size: cover;
+    overflow: auto;
+  }
+  
+  .box-shadow {
+    -webkit-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.75);
+  }
+  
+  .main-header, .main-footer {
+    height: 75px;
+    /* width: 100vw; */
+    background-color: #CCC;
+  }
+  
+  .logo-text {
+    display: block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .main-container {
+    height: calc(100vh - 150px);
+    /* width: 80vw; */
+    margin: 0px auto;
+  }
+  
+  .top-section {
+    width: 100%;
+    background-color: #CCC;
+    height: 210px;
+    margin: 10px 0px 20px;
+  }
+  
+  .top-inner-section {
+    overflow: auto;
+  }
+  
+  .bottom-section {
+    width: 100%;
+    height: 70%;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #ccc;
+    height: 100%;
+    float: left;
+  }
+  
+  .gallery {
+    height: 100%;
+    margin-left: 25%;
+    padding: 0px 1em;
+    overflow: auto;
+  }
+  
+  .pic-container {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .pic-container>img {
+    object-fit: cover;
+    display: block;
+    width: 190px;
+    margin: 10px;
+  }
+  
+  .sidebar>ul {
+    list-style-type: none;
+  }
+  
+  .sidebar>ul>li>a {
+    padding: 15px 20px;
+    display: block;
+    background: color #ccc;
+    border: 1px solid #f1f1f1;
+    transition-duration: 0.5s;
+  }
+  
+  .sidebar>ul>li a:hover {
+    background-color: rgb(150, 110, 110);
+  }
+  
+  .gallery-container {
+    list-style-type: none;
+  }
+  
+  .gallery-container>li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .gallery-container>li>img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer-text {
+    text-align: center;
+    display: block;
+    padding: 20px;
+  }
